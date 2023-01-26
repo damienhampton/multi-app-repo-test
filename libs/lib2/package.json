@@ -1,17 +1,17 @@
 {
-  "name": "lib1",
+  "name": "@26brains/lib2",
   "version": "1.0.0",
   "main": "dist/lib.js",
   "types": "dist/lib.d.ts",
-  "private": true,
+  "author": "Damien Hampton <damien@26brains.com>",
   "license": "MIT",
   "scripts": {
     "build": "tsc",
     "dev": "tsc -w"
   },
-  "dependencies": {
-    "tsconfig": "*",
+  "devDependencies": {
     "@types/node": "^18.11.18",
+    "tsconfig": "*",
     "typescript": "^4.9.4"
   }
 }

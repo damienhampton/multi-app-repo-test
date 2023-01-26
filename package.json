@@ -5,9 +5,12 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "build": "turbo build --filter=$APP_NAME"
+    "build": "turbo build --filter=$APP_NAME",
+    "release": "turbo run build && changeset publish",
+    "publish-packages": "turbo run build lint test && changeset version && changeset publish"
   },
   "dependencies": {
+    "@changesets/cli": "^2.26.0",
     "turbo": "^1.7.0"
   },
   "workspaces": [
