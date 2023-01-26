@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "dist/lib.js",
   "types": "dist/lib.d.ts",
+  "private": true,
   "license": "MIT",
   "scripts": {
     "build": "tsc",
