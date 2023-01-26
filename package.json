@@ -6,7 +6,8 @@
   "private": true,
   "scripts": {
     "build": "turbo build --filter=$APP_NAME",
-    "release": "changeset version && changeset publish"
+    "release": "turbo run build && changeset publish",
+    "publish-packages": "turbo run build lint test && changeset version && changeset publish"
   },
   "dependencies": {
     "@changesets/cli": "^2.26.0",
