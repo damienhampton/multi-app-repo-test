@@ -1,11 +1,11 @@
 {
   "name": "lib1",
   "version": "1.0.0",
-  "main": "dist/lib.js",
+  "main": "src/lib.ts",
+  "types": "src/lib.ts",
   "license": "MIT",
   "scripts": {
-    "build": "tsc",
-    "dev": "tsc -w"
+    "build": "tsc"
   },
   "dependencies": {
     "@types/express": "^4.17.16",
