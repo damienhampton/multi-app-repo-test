@@ -7,7 +7,7 @@
   "scripts": {
     "build": "turbo build --filter=$APP_NAME"
   },
-  "devDependencies": {
+  "dependencies": {
     "turbo": "^1.7.0"
   },
   "workspaces": [
