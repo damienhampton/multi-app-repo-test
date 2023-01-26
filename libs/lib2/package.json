@@ -1,16 +1,17 @@
 {
-  "name": "lib1",
+  "name": "@26b/lib2",
   "version": "1.0.0",
   "main": "dist/lib.js",
   "types": "dist/lib.d.ts",
   "license": "MIT",
   "scripts": {
     "build": "tsc",
-    "dev": "tsc -w"
+    "dev": "tsc -w",
+    "publish-packages": "changeset version && changeset publish"
   },
-  "dependencies": {
-    "tsconfig": "*",
+  "devDependencies": {
     "@types/node": "^18.11.18",
+    "tsconfig": "*",
     "typescript": "^4.9.4"
   }
 }
