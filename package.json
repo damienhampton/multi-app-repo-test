@@ -5,7 +5,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "build": "turbo build --filter=$APP..."
+    "build": "turbo build --filter=$APP_NAME..."
   },
   "workspaces": [
     "apps/*",
