@@ -7,8 +7,11 @@
   "scripts": {
     "build": "turbo build --filter=...$APP_NAME --force --no-daemon --concurrency=1"
   },
+  "devDependencies": {
+    "turbo": "^1.7.0"
+  },
   "workspaces": [
-    "apps/*",
-    "libs/*"
+    "libs/*",
+    "apps/*"
   ]
 }
