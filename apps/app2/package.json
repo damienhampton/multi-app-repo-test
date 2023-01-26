@@ -9,6 +9,7 @@
     "start": "node dist/start"
   },
   "dependencies": {
+    "tsconfig": "*",
     "lib1": "*",
     "@types/express": "^4.17.16",
     "@types/node": "^18.11.18",
