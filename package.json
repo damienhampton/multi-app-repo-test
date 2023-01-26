@@ -5,7 +5,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "build": "turbo build --filter=$APP_NAME"
+    "build": "turbo build --filter=$HEROKU_APP_NAME"
   },
   "devDependencies": {
     "turbo": "^1.7.0"
