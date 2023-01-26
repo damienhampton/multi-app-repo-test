@@ -4,6 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "build": "turbo build --filter=$APP..."
+  },
   "workspaces": [
     "apps/*",
     "libs/*"
