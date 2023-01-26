@@ -5,7 +5,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "build": "turbo build --force --no-daemon --concurrency=1"
+    "build": "turbo build --filter=$APP_NAME... --force --no-daemon --concurrency=1"
   },
   "workspaces": [
     "apps/*",
