@@ -1,0 +1,1 @@
+export const helloFromLib = () => "Hello from lib rebud!";
